@@ -1,10 +1,3 @@
-"""
-make_reference_plate.py - same method as make_reference.py, for MPDD metal_plate.
-
-IMPORTANT: `pc` imported from Patchcore_wrapper must be the metal_plate model
-(coreset 0.01). If the wrapper still loads the bottle checkpoint, the scores are meaningless.
-Run from the folder where Patchcore_wrapper.py lives and adjust TEST_DIR if needed.
-"""
 import numpy as np
 import torch
 from pathlib import Path

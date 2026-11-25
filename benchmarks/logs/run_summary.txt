@@ -1,0 +1,32 @@
+=== Run Metadata ===
+Date: 2026-11-25T16:07:47+00:00
+A015
+  temperature: 330
+
+=== Total (Fused metal_plate_double_fp32.pte) ===
+cpu_cores : 8
+threads: 4
+[mem] start | RSS 4.21484 MB | anon 0.761719 MB | file 3.01562 MB | peak 4.21484 MB
+[mem] after warmup | RSS 580.781 MB | anon 574.801 MB | file 5.54297 MB | peak 581.035 MB
+[mem] after benchmark | RSS 580.781 MB | anon 574.801 MB | file 5.54297 MB | peak 581.035 MB
+----Summary----
+Max inference time : 97.9422
+Min inference time : 83.4978
+Mean inference time : 85.6947
+p50 : 85.1728
+p95 : 90.3191
+p99 : 94.3212
+
+=== Backbone (backbone_plate.pte) ===
+cpu_cores : 8
+threads: 4
+[mem] start | RSS 3.73828 MB | anon 0.714844 MB | file 2.61328 MB | peak 3.73828 MB
+[mem] after warmup | RSS 31.3047 MB | anon 27.5234 MB | file 3.37109 MB | peak 31.3047 MB
+[mem] after benchmark | RSS 31.3047 MB | anon 27.5234 MB | file 3.37109 MB | peak 31.3047 MB
+----Summary----
+Max inference time : 49.8342
+Min inference time : 37.8888
+Mean inference time : 38.993
+p50 : 38.9243
+p95 : 39.8769
+p99 : 43.0772

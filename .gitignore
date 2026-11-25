@@ -1,0 +1,21 @@
+cat << 'EOF' > .gitignore
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Large binaries & datasets
+*.pt
+*.pte
+*.pth
+dataset/
+build/
+
+# Android / IDE
+android_app/.gradle/
+android_app/build/
+android_app/app/build/
+android_app/local.properties
+.vscode/
+*:Zone.Identifier
+EOF

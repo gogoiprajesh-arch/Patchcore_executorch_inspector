@@ -12,7 +12,7 @@ scores = np.array([s.item() for s in data["scores"]])
 labels = np.array(data["labels"])
 names = data["file_names"]
 
-thr = 15.631  # match your app threshold
+thr = 15.631 
 
 
 def apply_postprocess_colormap(amap: np.ndarray, threshold: float):
