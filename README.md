@@ -23,3 +23,4 @@ adb shell mkdir -p /data/local/tmp/patchcore /data/local/tmp/patchcore_test
 adb push metal_plate_double_fp32.pte /data/local/tmp/patchcore/
 adb push backbone_plate.pte app_csv /data/local/tmp/patchcore_test/
 adb shell chmod +x /data/local/tmp/patchcore_test/app_csv
+```
